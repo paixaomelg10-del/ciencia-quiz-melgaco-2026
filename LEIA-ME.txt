@@ -1,0 +1,25 @@
+CIÊNCIA QUIZ ESCOLAR — projeto Android com compilação automática
+
+ESTE PACOTE AINDA NÃO CONTÉM UM APK PRÉ-COMPILADO.
+Inclui agora uma automação do GitHub Actions que compila o APK em ambiente Android,
+sem exigir Android Studio no seu computador.
+
+COMO OBTER O APK:
+1. No computador ou celular, entre em https://github.com e crie uma conta gratuita, se ainda não tiver.
+2. Crie um repositório novo, por exemplo: ciencia-quiz.
+3. Envie TODO o conteúdo desta pasta ZIP descompactada para o repositório (incluindo a pasta oculta .github).
+4. Abra a aba Actions do repositório.
+5. Se aparecer uma confirmação para permitir workflows, confirme.
+6. Selecione "Build Ciência Quiz APK" e toque em "Run workflow" (ou aguarde o build iniciar após enviar os arquivos).
+7. Aguarde o processo terminar com status verde.
+8. Na execução concluída, baixe o artefato "Ciencia-Quiz-APK".
+9. Dentro do ZIP baixado estará app-debug.apk. Transfira para o Android e instale.
+
+CONTEÚDO DO APP:
+- 30 perguntas nos seis assuntos escolhidos.
+- Três níveis de dificuldade.
+- Pontuação, correção e explicações.
+- Revisão das respostas e desempenho por tema.
+- Conteúdo embarcado, funciona sem internet.
+
+Observação: o APK gerado pelo fluxo é de depuração (debug), adequado para instalação e testes.
